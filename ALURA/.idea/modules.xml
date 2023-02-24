@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/ALURA.iml" filepath="$PROJECT_DIR$/.idea/ALURA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/byteBank/byteBank.iml" filepath="$PROJECT_DIR$/byteBank/byteBank.iml" />
+      <module fileurl="file://$PROJECT_DIR$/byteBankComposto/byteBankComposto.iml" filepath="$PROJECT_DIR$/byteBankComposto/byteBankComposto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/byteBankEncapsulado/byteBankEncapsulado.iml" filepath="$PROJECT_DIR$/byteBankEncapsulado/byteBankEncapsulado.iml" />
+    </modules>
+  </component>
+</project>
