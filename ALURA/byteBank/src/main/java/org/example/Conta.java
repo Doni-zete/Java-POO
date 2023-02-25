@@ -18,7 +18,6 @@ public class Conta {
             return false;
         }
     }
-
     public boolean transferir(double valor, Conta destino) {
         if (this.saldo >= valor) {
             this.saldo -= valor;
