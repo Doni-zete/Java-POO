@@ -2,8 +2,8 @@ package org.example;
 
 public class TestaGetSet {
     public static void main(String[] args) {
-        Conta conta = new Conta();
-        conta.setNumero(1337);
+        Conta conta = new Conta(1337,24226);
+//        conta.setNumero(1337);
         System.out.println(conta.getNumero());
 
         Cliente donili = new Cliente();
