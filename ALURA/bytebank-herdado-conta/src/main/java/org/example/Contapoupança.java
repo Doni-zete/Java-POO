@@ -5,4 +5,9 @@ public class Contapoupança extends Conta {
         super(agencia, numero);
 
     }
+
+    @Override
+    public void depositar(double valor) {
+        super.saldo +=valor;
+    }
 }

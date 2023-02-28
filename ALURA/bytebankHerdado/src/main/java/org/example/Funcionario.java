@@ -1,6 +1,8 @@
 package org.example;
 
-public class Funcionario {
+//abstract relacionado com herança
+//não pode instanciar dessa classe, pq é abstrata
+public abstract class Funcionario {
 //pivate só visivel nessa classe
 
     private String nome;
@@ -9,10 +11,8 @@ public class Funcionario {
     //    protected publico para o filhos as outras classes não
     private double salario;
 
-    //    metodo calculo aumento de 10% salario
-    public double getBonificacao() {
-        return this.salario * 0.05;
-    }
+//    metodo sem corpo, não há implementação
+    public  abstract double getBonificacao();
 
     //construtor vazio não retorna nada
     public Funcionario() {
