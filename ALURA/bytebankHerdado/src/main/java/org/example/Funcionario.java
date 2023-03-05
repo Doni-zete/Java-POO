@@ -3,6 +3,8 @@ package org.example;
 //abstract relacionado com herança
 //não pode instanciar dessa classe, pq é abstrata
 public abstract class Funcionario {
+
+
 //pivate só visivel nessa classe
 
     private String nome;
