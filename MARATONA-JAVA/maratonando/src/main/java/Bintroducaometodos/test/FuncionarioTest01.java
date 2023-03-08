@@ -12,17 +12,17 @@ public class FuncionarioTest01 {
 
         ImpressoraFuncionario impressoraFuncionario = new ImpressoraFuncionario();
 
-        funcionario1.nome = "Ciclope";
-        funcionario1.idade = 28;
-        funcionario1.salarios = new double[]{1200, 987.52, 5000};
+        funcionario1.setNome("Ciclope");
+        funcionario1.setIdade(28);
+        funcionario1.setSalarios(new double[]{1200, 987.52, 5000});
 
-        funcionario2.nome = "Jack chan";
-        funcionario2.idade = 58;
-        funcionario2.salarios = new double[]{4000, 987.52, 8000};
+        funcionario2.setNome("Jack chan");
+        funcionario2.setIdade(58);
+        funcionario2.setSalarios(new double[]{4000, 987.52, 8000});
 
-        funcionario3.nome = "Mario Bross";
-        funcionario3.idade = 38;
-        funcionario3.salarios = new double[]{1200, 1987.52, 7000};
+        funcionario3.setNome("Mario Bross");
+        funcionario3.setIdade(38);
+        funcionario3.setSalarios(new double[]{1200, 1987.52, 7000});
 
 
         funcionario1.imprimir();
